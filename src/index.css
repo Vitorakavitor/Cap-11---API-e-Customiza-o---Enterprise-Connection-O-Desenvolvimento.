@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Estilo do iPhone XS */
+.iphone-xs {
+  width: 375px;
+  height: 812px;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  margin: 50px auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilo do cabeçalho */
+.iphone-xs .header {
+  height: 90px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Estilo do título do cabeçalho */
+.iphone-xs .header .title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Estilo do conteúdo */
+.iphone-xs .content {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do campo CEP */
+.iphone-xs .content .form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Estilo do botão de busca */
+.iphone-xs .content .form-group button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Estilo do endereço */
+.iphone-xs .content .endereco {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Estilo dos campos do endereço */
+.iphone-xs .content .endereco p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Estilo do rodapé */
+.iphone-xs .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do texto do rodapé */
+.iphone-xs .footer p {
+  color: #fff;
+  font-size: 14px;
 }
